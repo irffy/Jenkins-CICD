@@ -15,6 +15,8 @@ public class StartApplication {
         model.addAttribute("title", "IRFAN has successfuly built a sprint boot application using Maven");
         model.addAttribute("title", "IRFAN has successfuly built a sprint boot application using Maven");
         model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD using latest version");
+         model.addAttribute("msg", "This application is deployed on to Kubernetes using Argo CD using latest version");
+       
         return "index";
     }
 
